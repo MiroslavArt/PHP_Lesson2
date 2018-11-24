@@ -38,7 +38,13 @@
 				<a href="#"></a>
 				<a href="#"></a>			
 			</div>	
-			<div class="footer_text"><span>Все права защищены <sup>&copy;</sup></span></div>
+			<div class="footer_text"><span>Все права защищены</span>
+			<!--домашнее задание -->
+			<?php
+			$current_year = date ( 'Y' );
+			echo "© SiteName.ru 2017-".$current_year; 
+			?>
+			</div>
 		</div>		
 </footer>
 </body>
