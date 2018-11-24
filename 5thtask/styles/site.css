@@ -186,5 +186,6 @@ td {
 
 .footer_text {
     display: inline-block;  
-    margin: auto;    
+    margin: auto; 
+    font-size: 10px;   
 }
